@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --bg-colour: #f4d04e;
+    --font-primary: "Noto Sans", sans-serif;
+}
+
+body{
+    background-color:var(--bg-colour);
+    font-family:var(--font-primary);
+}
+.page-center {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+}
+
+.card-container{
+    width: 100%;
+    max-width: 420px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(254, 255, 255);
+    border: solid 1px black;
+    box-shadow: 10px 10px black;
+    border-radius: 15px;
+}
+
+.card-wrapper{
+    /* background-color: white; */
+    /* height: auto; */
+    width: 400px;
+    margin-top: 10px;
+    /* display: flex;  */
+    justify-content: center;
+
+}
+
+h4{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 5px;
+    /* margin: 10px; */
+    padding: 5px;
+    background-color: var(--bg-colour);
+}
+
+p.Description{
+    color:hsl(0, 0%, 42%) ;
+    font-weight: 500;
+}
+
+.img-container{
+    display:flex;
+    justify-content: center;
+}
+
+img{
+      width: 100%;
+  max-width: 370px;
+  height: auto;
+    border-radius: 15px;
+    margin-top: 10px;
+    
+}
+
+.description-container{
+    display: flex-box;
+    flex-direction: start;
+    margin: 10px;
+}
+
+h2{
+    color: black;
+    cursor: pointer;
+    font-weight: 800;
+    margin: 0;
+}
+h2:hover{
+    color: #f4d04e;
+}
+
+.profile-container{
+    /* max-width: fit-content; */
+
+    display: flex;
+
+    /* justify-content: space-between; */
+    margin: 0 0 30px;
+}
+.profile-img{
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+}
+h3{
+    padding-left:10px ;
+}
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
